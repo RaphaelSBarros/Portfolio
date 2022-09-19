@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portifólio.css">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#banner" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#services" onclick="toggleMenu()">Service</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#testimonials" onclick="toggleMenu()">Testimonials</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <a href="#" class="logo">Portfolio</a>
+                <div class="toggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </div>
+            
+            <!-- Banner -->
+            <section class="banner" id="banner">
+                <div class="content">
+                    <div class="imgBx">
+                        <img src="images/user.jpg">
+                    </div>
+                    <h3>John Barn</h3>
+                    <p>Web Developer</p>
+                    <a href="cv/index.html" class="btn">Download My CV</a>
+                    <ul class="socialMedia">
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section class="about adjust" id="about">
+                <div class="title">
+                    <h2>About Me</h2>
+                </div>
+                <div class="content">
+                    <div class="textBox">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam molestiae pariatur mollitia animi commodi repellendus, inventore dolor aperiam corrupti voluptatem numquam! Eos totam ipsam amet dolorem libero voluptas quis autem, ullam iste deserunt officia in soluta earum vel! Ab excepturi quos aperiam quibusdam quisquam voluptatum placeat ut amet quae eos architecto inventore tenetur aut culpa ipsum recusandae dignissimos, atque vero voluptas, ullam est quis. Neque, consequuntur? Alias, animi! Aperiam enim laudantium voluptatibus laborum expedita laboriosam reiciendis omnis iure provident, molestiae fuga at nam repellendus non culpa obcaecati dolorem perferendis suscipit quae? Tenetur perferendis vero nisi, aspernatur beatae sit quis, quaerat nam quisquam eveniet corporis maxime aliquid atque doloremque et dolorum numquam necessitatibus vel fugiat repudiandae. Laudantium expedita ut saepe at soluta impedit.<br><br> Consequatur atque ducimus, expedita quis deleniti magnam eum vero labore facere doloribus quisquam necessitatibus reprehenderit quo quidem sunt omnis eos illum excepturi ullam perspiciatis quasi. Aspernatur fuga eligendi id ipsum velit soluta reiciendis. Ea inventore est quod voluptate nobis quae repellendus dolorum, nisi quia? Nemo id suscipit minima quod rem mollitia ipsum soluta at est, iste natus velit ullam incidunt minus non laborum recusandae fugit facere vel sit. Tenetur ipsum aspernatur debitis quae, minus reprehenderit porro doloribus iste.</p>
+                    </div>
+                    <div class="imgBx">
+                        <img src="images/bg1.jpg">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services -->
+            <section class="services adjust" id="services">
+                <div class="title">
+                    <h2>Our Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nemo? Velit voluptates exercitationem aut libero accusamus pariatur nam delectus labore nostrum?</p>
+                </div>
+                <div class="content">
+                    <div class="serviceBox">
+                        <img src="images/icon1.png">
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facere ea enim rem libero asperiores, officiis error reprehenderit assumenda eos, iusto necessitatibus cumque blanditiis porro quisquam vero dignissimos non totam.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="images/icon2.png">
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facere ea enim rem libero asperiores, officiis error reprehenderit assumenda eos, iusto necessitatibus cumque blanditiis porro quisquam vero dignissimos non totam.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="images/icon3.png">
+                        <h2>Android Apps</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facere ea enim rem libero asperiores, officiis error reprehenderit assumenda eos, iusto necessitatibus cumque blanditiis porro quisquam vero dignissimos non totam.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="images/icon4.png">
+                        <h2>Photography</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facere ea enim rem libero asperiores, officiis error reprehenderit assumenda eos, iusto necessitatibus cumque blanditiis porro quisquam vero dignissimos non totam.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="images/icon5.png">
+                        <h2>Content Writing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facere ea enim rem libero asperiores, officiis error reprehenderit assumenda eos, iusto necessitatibus cumque blanditiis porro quisquam vero dignissimos non totam.</p>
+                    </div>
+                    <div class="serviceBox">
+                        <img src="images/icon6.png">
+                        <h2>Video Editing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis facere ea enim rem libero asperiores, officiis error reprehenderit assumenda eos, iusto necessitatibus cumque blanditiis porro quisquam vero dignissimos non totam.</p>
+                    </div>
+                </div>    
+            </section>
+
+            <!-- Projects -->
+            <section class="project adjust" id="project">
+                <div class="title">
+                    <h2>Recent Work</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nemo? Velit voluptates exercitationem aut libero accusamus pariatur nam delectus labore nostrum?</p>
+                </div>
+                <div class="content">
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/img1.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 01</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/img2.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 02</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/img3.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 03</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/img4.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 04</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/img5.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 05</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/img6.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 06</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/img7.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 07</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/img8.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 08</h3>
+                        </div>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <img src="images/img9.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 09</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="testimonials adjust" id="testimonials">
+                <div class="title">
+                    <h2>Testimonials</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nemo? Velit voluptates exercitationem aut libero accusamus pariatur nam delectus labore nostrum?</p>
+                </div>
+                <div class="content">
+                    <div class="testimonialsBox">
+                        <div class="imgBx">
+                            <img src="images/user1.jpg">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero assumenda veritatis dicta quia enim, deleniti voluptates laboriosam! Aut, modi dignissimos.</p>
+                        <h4>Someone Famouse<br><span>Website Designer</span></h4>
+                    </div>
+                    <div class="testimonialsBox">
+                        <div class="imgBx">
+                            <img src="images/user2.jpg">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero assumenda veritatis dicta quia enim, deleniti voluptates laboriosam! Aut, modi dignissimos.</p>
+                        <h4>Someone Famouse<br><span>Website Designer</span></h4>
+                    </div>
+                    <div class="testimonialsBox">
+                        <div class="imgBx">
+                            <img src="images/user3.jpg">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero assumenda veritatis dicta quia enim, deleniti voluptates laboriosam! Aut, modi dignissimos.</p>
+                        <h4>Someone Famouse<br><span>Website Designer</span></h4>
+                    </div>
+                    <div class="testimonialsBox">
+                        <div class="imgBx">
+                            <img src="images/user1.jpg">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero assumenda veritatis dicta quia enim, deleniti voluptates laboriosam! Aut, modi dignissimos.</p>
+                        <h4>Someone Famouse<br><span>Website Designer</span></h4>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section class="contact adjust" id="contact">
+                <div class="title">
+                    <h2>Let's Say Hi</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nemo? Velit voluptates exercitationem aut libero accusamus pariatur nam delectus labore nostrum?</p>
+                </div>
+                <div class="contactForm">
+                    <div class="row">
+                        <input type="text" name="" placeholder="First Name">
+                        <input type="text" name="" placeholder="Last Name">
+                    </div>
+                    <div class="row">
+                        <input type="text" name="" placeholder="Email Address">
+                        <input type="text" name="" placeholder="Mobile Number">
+                    </div>
+                    <div class="row2">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="row2">
+                        <input type="submit" value="Send"></input>
+                    </div>
+                </div>
+            </section>
+            <!-- Copyright Text-->
+            <div class="copyright">
+                <p>Copyright © 2022. All Rights Reserved.</p>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let topbar = document.querySelector('.topbar');
+        let navigation = document.querySelector('.navigation');
+        let main = document.querySelector('.main');
+
+        toggle.onclick = function(){
+            toggle.classList.toggle('active');
+            topbar.classList.toggle('active');
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+
+        function toggleMenu(){
+            let navigation = document.querySelector('.navigation');
+            let main = document.querySelector('.main');
+            navigation.classList.remove('active');
+            main.classList.remove('active');
+        }
+    </script>
+</body>
+</html>
